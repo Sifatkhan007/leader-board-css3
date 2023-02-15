@@ -6,27 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader-Board</title>
+    <!-- //////////// Fonts ///////// -->
+    <script src="https://kit.fontawesome.com/1d80211b3e.js" crossorigin="anonymous"></script>
     <!-- ////////////////////////Stylesheets////////////////////// -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <!--//////////// Header Start ///////////-->
 <header>
-
+    <!-- <nav class="navigation">
+        <div class="nav-bar">
+            <span id="font-icon"><i class="fa-solid fa-lightbulb"></i></span>
+            <ul class="nav-style">
+                <div>
+                    <li>
+                        <a class="navbar-name" href="#">Idea</a>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <a class="navbar-name" href="#">Home</a>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <a class="navbar-name" href="#">About</a>
+                    </li>
+                </div>
+                <div>
+                    <li class="navbar-name">
+                        <a class="navbar-name" href="#">Works</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </nav> -->
 </header>
 <!-- ///////////Header End////////////// -->
 
 <body>
     <main>
-        <section class="container-top">
+        <section class="container">
             <div class="top">
                 <h2 class="section-title">Top Player</h2>
                 <div class="top-players">
 
                     <!-- .player*6>img[src "images/players/player-$.png"]+h3 -->
+
                     <div class="player">
                         <img src="images/players/player-1.png" alt="">
                         <h3 class="player-name">
-                            Sifat Khan
+                            Sifat
                         </h3>
                     </div>
                     <div class="player">
@@ -62,6 +91,139 @@
                 </div>
             </div>
             <hr>
+            <!-- ////////////// TOP BLOGS ////////////////// -->
+            <div class="top-blogs">
+                <h3 class="section-title">
+                    Top Blogs
+                </h3>
+                <div class="blogs">
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-1.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">13 of My Favourit UI/UX
+                                Goodies</h3>
+                            <p class=blog-author>By <a href="#">Danny Sapio</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-2.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">UI cheat sheet:
+                                list vs grids</h3>
+                            <p class=blog-author>By <a href="#">Tess Gadd</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-3.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">7 typography tips
+                                for interface design</h3>
+                            <p class=blog-author>By <a href="#">Jeremiah Lam</a>
+                            </p>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-4.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">Your logo is copied</h3>
+                            <p class=blog-author>By <a href="#">Ferdinand Vogler</a>
+                            </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--////////////////// Latest Courses Started////////////// -->
+        <section class="container">
+            <h3 class="section-title">
+                Latest Courses
+            </h3>
+            <div class="courses">
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="images/courses/course-1.png" alt="">
+                    </div>
+                    <div class="course-detail">
+                        <h3 class="course-title">React-The Complete Guide 2023</h3>
+                        <p class="course-author">Reed Krakoof</p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+
+                            <div class="course-duration">
+                                <i class="fa-regular fa-clock"></i>
+                                01:30hr
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="images/courses/course-2.png" alt="">
+                    </div>
+                    <div class="course-detail">
+                        <h3 class="course-title">Powerpoint 2023 Master Powerpoint Course</h3>
+                        <p class="course-author">Reed Krakoof</p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.3</span>
+                            </div>
+
+                            <div class="course-duration">
+                                <i class="fa-regular fa-clock"></i>
+                                01:20hr
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="images/courses/course-3.png" alt="">
+                    </div>
+                    <div class="course-detail">
+                        <h3 class="course-title">The Complete JavaScript Course 2023</h3>
+                        <p class="course-author">Reed Krakoof</p>
+                        <div class="course-info">
+                            <div>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+
+                            <div class="course-duration">
+                                <i class="fa-regular fa-clock"></i>
+                                01:30hr
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
     </main>
 </body>
