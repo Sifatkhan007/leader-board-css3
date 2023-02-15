@@ -180,9 +180,13 @@ hr {
         width: 100%;
     }
 
-    .blogs,
     .top-players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blogs {
         grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;
     }
 
     .courses {
@@ -195,4 +199,24 @@ hr {
         flex-direction: column;
         align-items: baseline;
     }
+}
+
+/* ////////////////////Tablet Devices //////////////////// */
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .blog {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-players,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
 }
